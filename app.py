@@ -28,8 +28,15 @@ def read_csv(file_path):
 df = read_csv(sh_rawdata)
 
 st.write(df)
-
 st.map(df)
+
+
+##
+## Chamullo
+##
+
+row1_1, row1_2, row1_3 = st.columns([3,3])
+
 
 
 # Others Metric
