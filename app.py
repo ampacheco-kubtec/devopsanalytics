@@ -41,11 +41,11 @@ with row1_1:
     ''' ### North America '''  
     ''' #### # Users by Service '''  
 
-with row1_1:
+with row1_2:
     ''' ### South America '''  
     ''' #### # Users by Service '''  
 
-with row1_1:
+with row1_3:
     ''' ### Europe '''  
     ''' #### # Users by Service '''  
 
