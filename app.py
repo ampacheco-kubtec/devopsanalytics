@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+import numpy as np
 #make a title for this demo using emojis
 
 #
@@ -42,7 +43,9 @@ row1_1, row1_2, row1_3 = st.columns(3)
 
 with row1_1:
     ''' ### North America '''  
-    ''' #### # Users by Service '''      
+    ''' #### # Users by Service '''    
+    chart_data = pd.DataFrame(np.random.randn(50, 3),columns=["a", "b", "c"])
+    st.bar_chart(chart_data)  
 
 with row1_2:
     ''' ### South America '''  
