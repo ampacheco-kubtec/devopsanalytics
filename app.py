@@ -30,7 +30,6 @@ df = read_csv(sh_rawdata)
 st.write(df)
 st.map(df)
 
-
 ##
 ## Chamullo
 ##
