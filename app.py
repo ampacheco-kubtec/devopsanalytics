@@ -35,7 +35,7 @@ st.map(df)
 ## Chamullo
 ##
 
-row1_1, row1_2, row1_3 = st.columns([3,3])
+row1_1, row1_2, row1_3 = st.columns(3)
 
 with row1_1:
     st.title("North America")
