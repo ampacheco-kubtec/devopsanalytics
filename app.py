@@ -38,7 +38,8 @@ st.map(df)
 row1_1, row1_2, row1_3 = st.columns(3)
 
 with row1_1:
-    st.title("North America")
+    ''' ### North America '''  
+    ''' #### Users by Service '''  
 
 with row1_2:
     st.title("South America")
