@@ -30,6 +30,7 @@ df = read_csv(sh_rawdata)
 
 st.write(df)
 
+st.map(df)
 
 # Others Metric
 row2_1, row2_2 = st.columns([2,2])
