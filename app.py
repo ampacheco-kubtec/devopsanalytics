@@ -50,10 +50,14 @@ with row1_1:
 with row1_2:
     ''' ### South America '''  
     ''' #### # Users by Service '''  
+    chart_data = pd.DataFrame(np.random.randn(50, 3),columns=["a", "b", "c"])
+    st.bar_chart(chart_data)  
 
 with row1_3:
     ''' ### Europe '''  
     ''' #### # Users by Service '''  
+    chart_data = pd.DataFrame(np.random.randn(50, 3),columns=["a", "b", "c"])
+    st.bar_chart(chart_data)  
 
 # Others Metric
 row2_1, row2_2 = st.columns([2,2])
