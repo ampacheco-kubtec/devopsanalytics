@@ -7,11 +7,6 @@ import altair as alt
 # Set of useful functions
 #
 
-#######################################################################################################################
-def read_csv(file_path):
-    df = pd.read_csv(file_path)
-    return df
-#######################################################################################################################
 
 st.title('DevOps Outlook')
 
@@ -26,6 +21,11 @@ sh_rawdata="https://raw.githubusercontent.com/ampacheco-kubtec/devopsanalytics/m
 st.write(sh_rawdata)
 
 @st.cache
+#######################################################################################################################
+def read_csv(file_path):
+    df = pd.read_csv(file_path)
+    return df
+#######################################################################################################################
 df = read_csv(sh_rawdata)
 
 st.write(df)
