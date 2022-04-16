@@ -23,6 +23,8 @@ st.title("Service Health")
 # Service Health Raw Data
 sh_rawdata="https://raw.githubusercontent.com/ampacheco-kubtec/devopsanalytics/main/data/services-health.csv"
 
+st.write(sh_rawdata)
+
 @st.cache
 df = read_csv(sh_rawdata)
 
