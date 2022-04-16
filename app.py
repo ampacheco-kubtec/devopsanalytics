@@ -30,6 +30,17 @@ df = read_csv(sh_rawdata)
 st.write(df)
 
 st.map(df)
+row1_1, row1_2, row1_3 = st.columns(3)
+
+with row1_1:
+    st.title = "# Users per Service"
+
+with row1_2:
+    st.title = "# Users per Service"
+
+with row1_3:
+    st.title = "# Users per Service"
+
 
 # Others Metric
 row2_1, row2_2 = st.columns([2,2])
