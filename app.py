@@ -37,7 +37,14 @@ st.map(df)
 
 row1_1, row1_2, row1_3 = st.columns([3,3])
 
+with row1_1:
+    st.title("North America")
 
+with row1_2:
+    st.title("South America")
+
+with row1_3:
+    st.title("Europe")
 
 # Others Metric
 row2_1, row2_2 = st.columns([2,2])
