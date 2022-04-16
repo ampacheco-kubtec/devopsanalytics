@@ -7,7 +7,6 @@ import altair as alt
 # Set of useful functions
 #
 
-
 st.title('DevOps Outlook')
 
 # APP connected to CognitiveService
