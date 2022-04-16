@@ -42,18 +42,15 @@ row1_1, row1_2, row1_3 = st.columns(3)
 
 with row1_1:
     ''' ### North America '''  
-    ''' #### # Users by Service '''  
-    st.bar_chart(df)
+    ''' #### # Users by Service '''      
 
 with row1_2:
     ''' ### South America '''  
     ''' #### # Users by Service '''  
-    st.bar_chart(df)
 
 with row1_3:
     ''' ### Europe '''  
     ''' #### # Users by Service '''  
-    st.bar_chart(df)
 
 # Others Metric
 row2_1, row2_2 = st.columns([2,2])
