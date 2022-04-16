@@ -39,13 +39,15 @@ row1_1, row1_2, row1_3 = st.columns(3)
 
 with row1_1:
     ''' ### North America '''  
-    ''' #### Users by Service '''  
+    ''' #### # Users by Service '''  
 
-with row1_2:
-    st.title("South America")
+with row1_1:
+    ''' ### South America '''  
+    ''' #### # Users by Service '''  
 
-with row1_3:
-    st.title("Europe")
+with row1_1:
+    ''' ### Europe '''  
+    ''' #### # Users by Service '''  
 
 # Others Metric
 row2_1, row2_2 = st.columns([2,2])
