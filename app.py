@@ -33,7 +33,7 @@ st.map(df)
 
 st.dataframe(df)
 
-na_df = df.filter(like='North', axis=0)
+na_df = df.filter(items=['Data Center', 'S1','S2','S3','S4','S5'])
 sa_df = df.filter(like='South', axis=0)
 eu_df = df.filter(like='East', axis=0)
 
