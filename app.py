@@ -33,7 +33,7 @@ st.map(df)
 
 st.dataframe(df)
 
-na_df = df[df['Data Center']isin(['North America'])]
+na_df = df[df['Data Center'].isin(['North America'])]
 sa_df = df.filter(like='South', axis=0)
 eu_df = df.filter(like='East', axis=0)
 
