@@ -33,9 +33,9 @@ st.map(df)
 
 st.dataframe(df)
 
-na_df = df[df['Data Center'].sin('North America')]
-sa_df = df[df['Data Center'].sin('South America')]
-eu_df = df[df['Data Center'].sin('Europe')]
+na_df = df[df['Data Center'].isin('North America')]
+sa_df = df[df['Data Center'].isin('South America')]
+eu_df = df[df['Data Center'].isin('Europe')]
 
 st.dataframe(na_df)
 st.dataframe(sa_df)
