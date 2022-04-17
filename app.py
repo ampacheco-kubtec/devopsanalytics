@@ -53,7 +53,7 @@ row1_1, row1_2, row1_3 = st.columns(3)
 with row1_1:
     ''' ### North America '''  
     ''' #### # Users by Service '''    
-    chart_data = na_df.filter(items=['S1','S2','S3','S4','S5'])
+    chart_data = na_df.filter(items=['S1','S2','S3','S4','S5']).transpose()
     st.bar_chart(chart_data)  
 
 with row1_2:
