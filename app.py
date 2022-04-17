@@ -54,18 +54,17 @@ with row1_1:
     ''' ### North America '''  
     ''' #### # Users by Service '''    
     chart_data = na_df.filter(items=['S1','S2','S3','S4','S5']).transpose()
-    st.bar_chart(chart_data)  
 
 with row1_2:
     ''' ### South America '''  
     ''' #### # Users by Service '''  
-    chart_data = pd.DataFrame(np.random.randn(50, 3),columns=["a", "b", "c"])
+    chart_data = sa_df.filter(items=['S1','S2','S3','S4','S5']).transpose()
     st.bar_chart(chart_data)  
 
 with row1_3:
     ''' ### Europe '''  
     ''' #### # Users by Service '''  
-    chart_data = pd.DataFrame(np.random.randn(50, 3),columns=["a", "b", "c"])
+    chart_data = eu_df.filter(items=['S1','S2','S3','S4','S5']).transpose()
     st.bar_chart(chart_data)  
 
 # Others Metric
