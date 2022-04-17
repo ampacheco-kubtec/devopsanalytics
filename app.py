@@ -33,6 +33,14 @@ st.map(df)
 
 st.dataframe(df)
 
+na_df = df[df['Data Center'].sin('North America')]
+sa_df = df[df['Data Center'].sin('South America')]
+eu_df = df[df['Data Center'].sin('Europe')]
+
+st.dataframe(na_df)
+st.dataframe(sa_df)
+st.dataframe(eu_df)
+
 ##
 ## Chamullo
 ##
